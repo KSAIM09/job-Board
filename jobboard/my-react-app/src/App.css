@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 40px;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.container-md {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main {
+  background-color: #f6f6f6;
+}
+
+.header {
+  background-color: #2980b9;
+  height: 50px; /* increased height for better visibility */
+  padding: 0 20px; /* reduced padding */
+  line-height: 50px; /* vertically centering text */
+}
+
+.post-job-link {
+  color: #fff;
+  padding: 10px 20px; /* increased padding */
+  text-decoration: none;
+  background-color: #2e6dcc;
+  margin-bottom: 10px;
+  float: right;
+}
+
+form {
+  width: 100%; /* adjusted width */
+  padding-top: 20px;
+  clear: both;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+  width: calc(100% - 20px); /* adjusted width */
+  padding: 10px;
+  margin-right: 10px;
+}
+
+textarea {
+  height: 80px; /* increased height for better usability */
+}
+
+button {
+  width: 100%; /* adjusted width */
+  padding: 15px;
+  background-color: #2e6dcc;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.float-left {
+  float: left; /* corrected float direction */
+}
+
+.job-item {
+  width: 100%;
+  padding: 20px; /* increased padding */
+  background-color: #fff;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+.job-item h2 {
+  color: #34495e;
+  margin-bottom: 10px; /* added margin-bottom */
+}
+
+.job-item p {
+  margin-bottom: 20px; /* increased margin */
+  color: #333;
+  line-height: 1.5em;
+}
+
+.apply-link {
+  display: inline-block; /* corrected display type */
+  color: #fff;
+  background-color: #2e6dcc;
+  padding: 10px 20px; /* increased padding */
+  text-decoration: none;
+}
+
+#jobsform {
+  display: none;
+}
+
+.tags {
+  list-style: none;
+  display: inline-block; /* corrected display type */
+  margin-top: 20px;
+}
+
+.tags li {
+  float: left;
+  padding: 10px 15px;
+  background-color: #34495e;
+  cursor: pointer;
+  color: #fff;
+}
+
+.tags li:hover {
+  background-color: #2ecc71;
+}
